@@ -37,9 +37,8 @@ jobs:
           echo test, and deploy your project.
           
   hello-world-windows:
-    # The type of runner that the job will run on
     runs-on: windows-latest
     
     steps:
-      - name: Print Hello, world on windows!
-        run: echo Hello, world! Rodando no windows!
+      - name: Print Hello World Windows
+        run: echo 'Hello world rodando no windows!'
